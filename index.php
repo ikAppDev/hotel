@@ -105,7 +105,7 @@
           <div class="col-sm-6 col-md-4 ">
             <div class="text-center p-4 item">
                 <?php include"../data/logout.svg"; ?>
-              </svg>
+              
               <h2 class="h5">Fire Exit</h2>
             </div>
           </div>
