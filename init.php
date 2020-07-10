@@ -1,6 +1,6 @@
 <?php 
 	include'function/function.php';
-	include'connect.php';
+	
 
 	$tpl  = 'includs/' ;//header, footer and navbar directory
 	$img  = 'layout/images/' ;//images directory
