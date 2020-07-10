@@ -8,5 +8,6 @@
 	$js   = 'layout/js/' ;//js directory
 
 	include $tpl . 'header.php';
+        include $tpl . 'footer.php';
 	include $tpl . 'navbar.php';
  ?>
