@@ -1,0 +1,283 @@
+/*start nav_bar*/
+.bg-dark {
+	padding: 10px;
+    background-color: #152837 !important;
+}
+.navbar-brand{
+	font-size: 25px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.nav-span{
+	font-size: 30px;
+	font-weight: bolder;
+	color: yellow;
+}
+
+ .navbar-dark .navbar-nav .show > .nav-link,
+  .navbar-dark .navbar-nav .active > .nav-link,
+   .navbar-dark .navbar-nav .nav-link .show {
+    color: yellow;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(254, 254, 254, 0.98);
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+ .navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:active{
+    color:yellow;
+}
+/*end nav_bar*/
+/*carousel start*/
+.carousel-caption{
+	bottom: 200px;
+}
+.slide .carousel-inner h2,
+.slide .carousel-inner p{
+	font-family: serif;
+	text-transform: uppercase;
+}
+.slide .carousel-inner p{
+font-size: 30px;
+}
+.slide .carousel-inner span{
+	font-family:serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: yellow;
+}
+.carousel-item img{
+height: 600px;
+}
+.carousel-caption a{
+	color: black;
+	text-decoration: none;
+}
+.carousel-caption a:hover,
+.carousel-caption a:focus{
+	color: black;
+	text-decoration: none;
+}
+.slide .carousel-indicators{
+	bottom: 60px;
+}
+.slide .carousel-control-prev,
+.slide .carousel-control-next,
+.slide .carousel-indicators li{
+	opacity: 1;
+}
+.slide .carousel-indicators li{
+	height: 12px;
+	width: 12px;
+	border-radius: 100%;
+	background-color: #fff0;
+	border: 2px solid white;
+}
+.slide .carousel-indicators >.active{
+	background-color: yellow;
+	border: 2px solid  yellow;
+}
+.site-blocks-cover h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Playfair Display"; }
+    @media (min-width: 768px) {
+      .site-blocks-cover h1 {
+        font-size: 4rem;
+        font-weight: 900;
+        line-height: 1.2; } }
+/*carousel end*/
+.image-popup img{
+width: 500px;
+height: 200px;
+}
+.overly {
+    background-color: 
+    rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.hotel_features h2{
+	color: #152837;
+	font-weight: bold;
+}
+/* reservation start*/
+.reservation-form{
+	padding: 20px;
+	background-color:#152837 ;
+	font-weight: bold;
+	color: white;
+}
+.hotel-room img{
+	height: 250px;
+}
+svg{
+	width: 60px;
+	height: 60px;
+}
+/* reservation end*/
+/* swiming pool start*/
+
+.site-section {
+  padding: 2em 0; 
+  background-color: #80808017;
+}
+  @media (min-width: 768px) {
+	.site-section {
+	  padding: 2em 0; 
+	  } 
+}
+.hotel-room .price {
+      color: #5c7893;
+      font-weight: 400; 
+      }
+.hotel-room-body{
+      color: #5c7893;
+      font-weight: 400;
+      padding-bottom: 30px;
+      background-color: white;
+      border:solid 1px #0000001c; 
+      }
+.section-heading h2 {
+  position: relative;
+  display: inline-block;
+  font-family: "Playfair Display";
+  font-size: 40px; 
+}
+.section-heading h2:before, .section-heading h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  background: #000;
+  left: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); 
+}
+.section-heading h2:before {
+  width: 100px;
+  bottom: -10px;
+  left: 50%; 
+}
+.section-heading.text-left h2:before, 
+.section-heading.text-left h2:after {
+  left: 0;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%); 
+}
+
+    /* swiming pool end*/
+    /*contact start*/
+.contact-form{
+	padding: 30px;
+	background-color:#152837 ;
+	font-weight: bold;
+}
+.contact_hotel{
+	color: white;
+}
+.contact_hotel h3{
+    font-weight: bold;
+}
+.mb-4 {
+	color: yellow;
+}
+.font-weight-bold{
+	color: white;
+}
+/**/
+/*About us  start*/
+.img-border, .img-border-sm {
+  position: relative; }
+  .img-border img, .img-border-sm img {
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+	height: 400px;
+	width: 800px;
+}
+    .image-absolute {
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  right: -50px;
+  border: 7px solid #fff;
+  z-index: 9;
+  bottom: -50px; }
+  .about_description{
+  	color: black;
+  	padding: 4em 0;
+  }
+    /*About us end*/
+    /*LogIn start*/
+ .login{
+	width: 285px;
+	margin: 100px auto;
+	padding: 0;
+}
+.login input{
+	margin: 10px;
+}
+.login .form-control{
+background-color: #e5e5e5;
+}
+.Admn-Lo, .edit-head{
+  margin: 20px;
+  font-weight: bolder;
+  color: #384f71;
+  font-style: italic;
+}
+.btn_login{
+   color: #fff;
+    background-color: #384f71;
+    border-color: #384f71;
+}
+.btn_login:hover{
+   color: #fff;
+    background-color: #384f71;
+    border-color: #384f71;
+}
+    /*LogIn end*/
+    /* Admin start*/
+.table-responsive{
+  padding-top: 5%;
+}
+.head-table{
+     background-color: #152837 ;
+     font-weight: bold;
+     color: white;
+    }
+.tabl_content{
+  background-color: #e5e5e5;
+  font-size: 18px;
+  font-family: t;
+}
+.danger:focus,
+.danger:hover,
+.danger{
+  font-weight: bolder;
+  color: red;
+}
+.success:focus,
+.success:hover,
+.success{
+  font-weight: bolder;
+  color: green;
+}
+.edit-head{
+  margin: 20px;
+  font-weight: bolder;
+  color: #384f71;
+  font-style: italic;
+}
+    /* Admin end*/
