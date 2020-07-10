@@ -92,7 +92,7 @@
         <div class="row hotel_features">
           <div class="col-sm-6 col-md-4 ">
             <div class="text-center p-4 item">
-              <?php include"../data/swimming-pool.svg"; ?>
+              <?php include"data/swimming-pool.svg"; ?>
               <h2 class="h5">Swimming Pool</h2>
             </div>
           </div>
