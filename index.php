@@ -104,26 +104,26 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="text-center p-4 item">
-                <?php include"data/logout.svg"; ?>
+                <?php include"../data/logout.svg"; ?>
               </svg>
               <h2 class="h5">Fire Exit</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="text-center p-4 item">
-              <?php include"data/parking.svg"; ?>
+              <?php include"../data/parking.svg"; ?>
               <h2 class="h5">Car Parking</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="text-center p-4 item">
-              <?php include"data/wine-glass.svg"; ?>
+              <?php include"../data/wine-glass.svg"; ?>
               <h2 class="h5">cofe shop</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 ">
             <div class="text-center p-4 item">
-             <?php include"data/cab.svg"; ?>
+             <?php include"../data/cab.svg"; ?>
               <h2 class="h5">Car Airport</h2>
             </div>
           </div>
